@@ -12,5 +12,7 @@ make coverletter.png
 ### Preview
 * [Coverletter](preview/coverletter.pdf)
 ![](preview/coverletter.png)
+* [Resume/CV](preview/resume.pdf)
+![](preview/resume.png)
 ### License
 This project is licensed under the BSD 2-Clause License - see the LICENSE file for details

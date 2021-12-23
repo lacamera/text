@@ -1,0 +1,52 @@
+\documentclass[11pt]{letter}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\pdfgentounicode=1
+\urlstyle{same}
+\topmargin=-1in
+\textheight=8.5in
+\oddsidemargin=-10pt
+\textwidth=6.5in
+\let\raggedleft\raggedright
+
+\begin{document}
+\begin{letter}
+{
+  Ms. Jane Doe \\
+  Director of Recruiting \\
+  1517 Flanigan Oaks Drive \\
+  Oakland, MD 21550
+}
+\begin{center}
+  \large\bf
+  {
+    John Doe \\ 
+    1355 Alpha Avenue \\ 
+    Jacksonville, FL 32258 \\ 
+    \href{mailto:john.doe@example.com}{john.doe@example.com} \\ 
+    +1-904-234-2353
+  }
+\end{center}
+\vfill
+\opening{Dear Jane Doe,} 
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+  no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+  no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
+  et dolore magna aliquyam erat, sed diam voluptua.
+
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+  sed diam nonumy eirmod tempor invidunt ut labore 
+  et dolore magna aliquyam erat, sed diam voluptua. 
+\closing{Sincerely yours, \\
+  \fromsig{\includegraphics[scale=0.10]{signature.png}} \\
+  \fromname{John Doe}
+}
+\end{letter}
+\end{document}

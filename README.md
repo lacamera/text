@@ -1,4 +1,4 @@
-## texplates
+## TeX
 Simple and functional LaTeX document templates 
 ### Dependencies
 * pdflatex (usually part of TeXLive)

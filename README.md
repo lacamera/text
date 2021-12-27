@@ -17,7 +17,6 @@ pdflatex coverletter.tex
 # Convert PDF to PNG (without transparent background)
 convert coverletter.pdf -density 300 -quality 90 -alpha remove -alpha off coverletter.png
 ```
-
 ### Preview
 * [Coverletter](preview/coverletter.pdf)
 ![](preview/coverletter.png)
